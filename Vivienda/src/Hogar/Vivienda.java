@@ -9,8 +9,12 @@ package Hogar;
  *
  * @author Paqui Elena
  */
+ /** Hemos conseguido realizar los cambios 
+    solicitados de manera exitosa
+    con lo cual concluimos con el proyecto.*/
 public class Vivienda {
 
+    
     /**
      * @return the precio
      */
@@ -94,6 +98,9 @@ public class Vivienda {
     protected void setPropietario(String propietario) {
         this.propietario = propietario;
     }
+    
+   
+    
     private double precio;
     private int numHabitaciones;
     private double superficie;
@@ -106,7 +113,7 @@ public class Vivienda {
         this.precio = precio;
     }
     
-    public void actualizarPrecio(double Descuento1, double Descuento)
+    public void actualizarPrecio(double Descuento)
     {
         setPrecio(getPrecio() - getPrecio() * Descuento);
     }
@@ -118,6 +125,7 @@ public class Vivienda {
         this.parking = parking;
         this.estado = estado;
         this.propietario = propietario;
+        
     }
 
     
